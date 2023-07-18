@@ -1,0 +1,44 @@
+.react-calendar {
+  font-family: 'Roboto', sans-serif;
+}
+
+.react-calendar__month-view__days__day {
+  font-size: 16px;
+  font-weight: bold;
+  color: #757575;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #e0e0e0;
+}
+
+.react-calendar__tile--active {
+  background: #2979ff;
+  color: #ffffff;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list .todo-date {
+  background: #ffffff;
+}
+
+.todo-list .todo-date-near-deadline {
+  background: #ffeb3b;
+}
+
+.todo-list .todo-date-completed {
+  background: #e0e0e0;
+}
+
+.todo-list .todo-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.todo-list .todo-description {
+  font-size: 12px;
+}
